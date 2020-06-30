@@ -1,0 +1,174 @@
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 47px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    line-height: 30px;
+}
+
+.main_header {
+    width: 1200px;
+    height: 300px;
+    margin: 40px auto 0;
+    background-color: #f7e296;
+}
+
+.interior_navigation {
+    display: flex;
+}
+
+.interior_navigation ul {
+    display: flex;
+    list-style: none;
+}
+
+.exterior_navigation {
+    display: flex;
+    list-style: none;
+}
+
+.exterior_navigation ul {
+    display: flex;
+    list-style: none;
+}
+
+.items_list ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.slide_1, .slide_2, .slide_3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.slide_1 div, .slide_2 div, .slide_3 div {
+}
+
+.properties {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.items_list li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.items_list svg {
+    background-color: #f7e296;
+    padding: 50px 50px;
+    margin: 40px 20px;
+}
+
+.services {
+    width: 100%;
+    height: 300px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #e5e5e5;
+}
+
+.services_switch {
+    list-style: none;
+}
+
+.delivery h2 {
+    margin: 0;
+    margin-top: -32px;
+    margin-bottom: 45px;
+    padding: 0;
+}
+
+.delivery .imageka {
+    margin: 0;
+    margin-top: -32px;
+    margin-bottom: 45px;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.brends {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.brends li {
+    margin: 100px 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about_us {
+    width: 480px;
+}
+
+.about_us ul {
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+
+.about_us li {
+    margin-top: 30px;
+}
+
+.contacts {
+    width: 570px;
+}
+
+.main_footer {
+    width: 100%;
+    height: 325px;
+    background-color: #464646;
+    color: #ffffff;
+}
+
+.footer_1_layer, .footer_2_layer, .footer_social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_1_layer {
+    padding-top: 70px;
+}
+
+.footer_1_layer h1 {
+    color: #ffc600;
+}
+
+.footer_1_layer ul, .footer_2_layer ul, .footer_social ul {
+    display: flex;
+    margin-left: 65px;
+    list-style: none;
+}
+
+.footer_social p {
+    margin: 0;
+    padding: 0;
+}
