@@ -18,7 +18,7 @@
         <nav class="interior_navigation">
             <input class="search" type="text" placeholder="Поиск по сайту">
             <ul>
-                <li><a href="иконка входа"><img src="img/user.svg" alt="">Войти</a></li>
+                <li><a href=""><img src="img/user.svg" alt="иконка входа">Войти</a></li>
                 <li><a href=""><img src="img/compare.svg" alt="иконка сранения">Сравнить</a></li>
                 <li><a href=""><img src="img/cart.svg" alt="иконка корзины">Корзина</a></li>
             </ul>
@@ -38,14 +38,32 @@
             <h2 class="visually_hidden">Слайдер с товарами</h2>
 
             <div class="slide_1">
-                <img src="../img/slider1.png" alt="">
+                <img src="img/slider1.png" alt="">
                 <div>
                     <h2>Делай селфи, <br> как Бен Стиллер!</h2>
                     <p>Самая длинная палка для селфи доступна в нашем магазине. <br> Восемь (Восемь, Карл!) метров
                         длиной и
                         всего 5 килограмм.</p>
-                    <a class="details" href="">Подробнее</a>
-                    Переключатель на радиокнопках
+                    <div class="some_shit">
+                        <a class="details" href="">Подробнее</a>
+                        <ul class="slider_buttons">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 23 23">
+                                    <path
+                                        d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z" />
+                                    <path
+                                        d="M11.5 9.004a2.5 2.5 0 0 1 2.496 2.496 2.5 2.5 0 0 1-2.496 2.496A2.5 2.5 0 0 1 9.004 11.5 2.5 2.5 0 0 1 11.5 9.004m0-2a4.496 4.496 0 1 0 0 8.992 4.496 4.496 0 0 0 0-8.992z" />
+                                </svg></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 23 23">
+                                    <path
+                                        d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z" />
+                                </svg></li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 23 23">
+                                    <path
+                                        d="M11.5 2c5.238 0 9.5 4.262 9.5 9.5S16.738 21 11.5 21 2 16.738 2 11.5 6.262 2 11.5 2m0-2C5.149 0 0 5.149 0 11.5 0 17.852 5.149 23 11.5 23 17.852 23 23 17.852 23 11.5 23 5.149 17.852 0 11.5 0z" />
+                                </svg></li>
+                        </ul>
+                    </div>
+
                     <ul class="properties">
                         <li>
                             <p>8,5 м</p>
@@ -64,7 +82,7 @@
             </div>
 
             <div class="slide_2 hidden">
-                <img src="../img/slider2.png" alt="">
+                <img src="img/slider2.png" alt="">
                 <div>
                     <h2>Худеем <br> правильно!</h2>
                     <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.
@@ -81,7 +99,7 @@
             </div>
 
             <div class="slide_3 hidden">
-                <img src="../img/slider3.png" alt="">
+                <img src="img/slider3.png" alt="">
                 <div>
                     <h2>Порхает как бабочка, жалит как пчела!</h2>
                     <p>Этот обычный, на первый взгляд, квадрокоптер оснащён мощным лазером, замаскированным под
@@ -188,9 +206,9 @@
 
         <section class="services">
             <ul class="services_switch">
-                <li><button>Доставка</button></li>
-                <li><button>Гарантия</button></li>
-                <li><button>Кредит</button></li>
+                <li><button class="delivery_button">Доставка</button></li>
+                <li><button class="warranty_button">Гарантия</button></li>
+                <li><button class="credit_button">Кредит</button></li>
             </ul>
 
             <div class="delivery">
@@ -235,19 +253,19 @@
         <ul class="brends">
             <li>
                 <img class="brend_item" src="img/brend1.png" alt="бренд1">
-                <img class="visually_hidden brend_item_color" src="img/brend1color.png" alt="бренд1">
+                <img class="hidden brend_item_color" src="img/brend1color.png" alt="бренд1">
             </li>
             <li>
                 <img class="brend_item" src="img/brend2.png" alt="бренд2">
-                <img class="visually_hidden brend_item_color" src="img/brend2color.png" alt="бренд1">
+                <img class="hidden brend_item_color" src="img/brend2color.png" alt="бренд1">
             </li>
             <li>
                 <img class="brend_item" src="img/brend3.png" alt="бренд3">
-                <img class="visually_hidden brend_item_color" src="img/brend3color.png" alt="бренд1">
+                <img class="hidden brend_item_color" src="img/brend3color.png" alt="бренд1">
             </li>
             <li>
                 <img class="brend_item" src="img/brend4.png" alt="бренд4">
-                <img class="visually_hidden brend_item_color" src="img/brend4color.png" alt="бренд1">
+                <img class="hidden brend_item_color" src="img/brend4color.png" alt="бренд1">
             </li>
         </ul>
 
@@ -262,7 +280,7 @@
                     <li>Автотрейдинг</li>
                     <li>ЖелДорЭкспедиция</li>
                 </ul>
-                <a class="details" href="">Подробнее о нас</a>
+                <a class="details_about_us" href="">Подробнее о нас</a>
             </div>
 
             <div class="contacts">
@@ -271,7 +289,7 @@
                     покупки. Всякое бывает.</p>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.0044641619793!2d37.52959103140532!3d55.68891014281598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54cf65f5c8955%3A0x694710ccd55501e!2z0YPQuy4g0KHRgtGA0L7QuNGC0LXQu9C10LksIDE1LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTE5MzEx!5e0!3m2!1sru!2s!4v1593520566426!5m2!1sru!2s"
-                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    width="600" height="250" frameborder="0" style="border:0; margin-top: 20px;" allowfullscreen="" aria-hidden="false"
                     tabindex="0"></iframe>
                 <button>Напишите нам</button>
             </div>

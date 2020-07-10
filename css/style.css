@@ -37,6 +37,39 @@ p {
   overflow: hidden;
 }
 
+.details {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.details::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 7px;
+    margin-top: 8px;
+    margin-left: -50px;
+    background-color: #f0c52e;
+    z-index: -1;
+}
+
+.details:hover::before, 
+.details:hover::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    margin-top: -8px;
+    margin-left: -50px;
+    background-color: #f0c52e;
+    z-index: -1;
+}
+
+.details:active {
+    opacity: 0.6;
+}
+
 .main_header {
     width: 1200px;
     height: 300px;
@@ -136,6 +169,22 @@ p {
     opacity: 0.4;
 } 
 
+.catalog::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+    margin-left: 15px;
+    background-image: url("../img/plus.svg");
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+.slider {
+    margin-top: -70px;
+}
+
 .slider p {
     color: #777777;
 }
@@ -148,6 +197,24 @@ p {
 
 
 .slide_1 div, .slide_2 div, .slide_3 div {
+}
+
+.some_shit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.slider_buttons {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.slider_buttons li {
+    margin-left: 20px;
 }
 
 .properties {
@@ -195,6 +262,7 @@ p {
     display: flex;
     justify-content: space-around;
     background-color: #e5e5e5;
+    z-index: -10;
 }
 
 .services p {
@@ -202,7 +270,58 @@ p {
 }
 
 .services_switch {
+    margin: 0;
+    margin-top: -15px;
+    padding: 0;
     list-style: none;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.services_switch button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.delivery_button::before,
+.warranty_button::before,
+.credit_button::before {
+    content: "";
+    position: absolute;
+    width: 230px;
+    height: 7px;
+    margin-top: 8px;
+    margin-left: -35px;
+    background-color: #f0c52e;
+    z-index: 5;
+}
+
+.services_switch button:hover::before, 
+.services_switch button:hover::before {
+    content: "";
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    margin-top: -8px;
+    margin-left: -35px;
+    background-color: #f0c52e;
+    z-index: -1;
+}
+
+.services_switch button:active {
+    opacity: 0.6;
+}
+
+.services::before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 320px;
+    margin-left: -400px;
+    margin-top: -100px;
+    background-color: #000000;
 }
 
 .delivery h2 {
@@ -211,7 +330,6 @@ p {
     margin-bottom: 45px;
     padding: 0;
 }
-
 
 .imageka {
     display: block;
@@ -233,6 +351,14 @@ p {
 
 .brends li {
     margin: 100px 20px;
+}
+
+.brends li:hover .brend_item {
+    display: none;
+}
+
+.brends li:hover .brend_item_color {
+    display: block;
 }
 
 .info {
@@ -272,8 +398,78 @@ p {
     margin-top: 40px;
 }
 
+.details_about_us {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.details_about_us::before {
+    content: "";
+    position: absolute;
+    width: 230px;
+    height: 7px;
+    margin-top: 8px;
+    margin-left: -35px;
+    background-color: #f0c52e;
+    z-index: -1;
+}
+
+.details_about_us:hover::before, 
+.details_about_us:hover::before {
+    content: "";
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    margin-top: -8px;
+    margin-left: -35px;
+    background-color: #f0c52e;
+    z-index: -1;
+}
+
+.details_about_us:active {
+    opacity: 0.6;
+}
+
 .contacts {
     width: 570px;
+}
+
+.contacts button {
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.contacts button::before {
+    content: "";
+    position: absolute;
+    width: 230px;
+    height: 7px;
+    margin-top: 8px;
+    margin-left: -45px;
+    background-color: #f0c52e;
+    z-index: -1;
+}
+
+.contacts button:hover::before, 
+.contacts button:hover::before {
+    content: "";
+    position: absolute;
+    width: 230px;
+    height: 40px;
+    margin-top: -8px;
+    margin-left: -45px;
+    background-color: #f0c52e;
+    z-index: -1;
+}
+
+.contacts button:active {
+    opacity: 0.6;
 }
 
 .main_footer {
